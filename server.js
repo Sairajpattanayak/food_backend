@@ -12,7 +12,7 @@ import TableRoutes from "./routes/table.routes.js";
 const app = express();
 app.use(
     cors({
-        origin: "https://food-frontend-95cw.vercel.app/",
+        origin: "https://food-frontend-95cw.vercel.app",
         credentials: true,
     }),
 );
