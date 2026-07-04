@@ -15,6 +15,7 @@ app.use(
         origin: "https://food-frontend-95cw.vercel.app",
         credentials: true,
     }),
+    // "Hii"
 );
 app.use(cookieParser());
 app.use(express.json());
